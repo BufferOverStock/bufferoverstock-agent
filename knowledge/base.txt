@@ -1,0 +1,44 @@
+# BufferOverStock Agent — Knowledge Base
+# Add your own notes, facts, or documentation below.
+# The agent will search this file when asked questions.
+
+# Cybersecurity
+OWASP Top 10 includes: Injection, Broken Authentication, XSS, Insecure Deserialization, Security Misconfiguration.
+SQL injection occurs when user input is not sanitized before being passed to a database query.
+Cross-site scripting (XSS) allows attackers to inject malicious scripts into web pages viewed by other users.
+A buffer overflow occurs when a program writes more data to a buffer than it can hold, potentially allowing code execution.
+Nmap is a network scanner used for host discovery and port scanning.
+Burp Suite is a web application security testing platform used for intercepting and modifying HTTP requests.
+Metasploit is a penetration testing framework with a large library of exploits and payloads.
+Wireshark is a network protocol analyzer used to capture and inspect network traffic.
+
+# AI / Agents
+An agentic loop is a pattern where an LLM iteratively calls tools until it has enough information to answer.
+Groq is a cloud inference API that provides fast LLM completions using custom hardware.
+Tool calling allows LLMs to request execution of specific functions and receive results back in context.
+Llama is an open-weight language model developed by Meta, available via APIs like Groq.
+
+# General
+Python virtual environments isolate project dependencies using venv or conda.
+A .env file stores environment variables like API keys and should never be committed to git.
+
+# Learned 2026-06-15: Common Greeting Hello
+Hello is a common English greeting used to get a person’s attention before speaking to them. It is often used in person or over the phone. The use of hello as a greeting is a cultural phenomenon that can be found in many different languages and cultures.
+
+# Learned 2026-06-15: Helpful AI Capabilities
+A helpful AI agent can provide information and assist with tasks, like answering questions and generating text. It can also learn from its interactions and improve over time. With access to tools and knowledge, a helpful AI can be a valuable resource for a wide range of tasks and users.
+
+# Learned 2026-06-15: Introduction to Python
+Python is a high-level, interpreted programming language known for its ease of use and simplicity. It is often used for web development, data analysis, and artificial intelligence. Python's syntax is clean and easy to read, making it a great language for beginners.
+
+# Learned 2026-06-15: Today's Weather Forecast
+Currently, the knowledge about today's weather is not stored. However, we just learned that it can be retrieved using web search tools like google.
+
+# Learned 2026-06-15: Japan Temperature Today
+Japan temperature today ranged from 15-23 degrees Celsius, with a slight chance of rain in select regions. Current weather forecast predicts cloudy skies and scattered showers.
+
+# Learned 2026-06-15: Tokyo, Japan Weather in June, Temperature, Rainy Season
+Tokyo's June 2026 forecast expects average highs up to 83°F, with nighttime lows dipping to around 60°F. Rainfall will be moderate, with the rainy season taking effect. Early summer brings warm temperatures across Japan, with highs varying between 67°F and 79°F, accompanied by increased humidity. In some areas, temperatures may spike to 82°F or even higher.
+
+# Learned 2026-06-16: SQL Injection Attacks
+SQL injection is a type of cyber attack in which an attacker injects malicious SQL code into a web application to access, modify, or delete sensitive data. This is typically done through a vulnerability in the application's code, allowing the attacker to execute unauthorized SQL commands. Examples include exploiting user-input fields in forms and inserting malicious SQL snippets. To prevent SQL injection, developers should use parameterized queries, prepared statements, and input validation, as well as limit database privileges and monitor for suspicious activity.

@@ -1,0 +1,40 @@
+# Mock Security Scan Results for sarahswanderlust.com
+
+--- NMAP SCAN ---
+Starting Nmap 7.94 ( https://nmap.org )
+Nmap scan report for sarahswanderlust.com (192.0.2.45)
+Host is up (0.045s latency).
+Not shown: 97 filtered ports
+PORT    STATE SERVICE VERSION
+21/tcp  open  ftp     vsftpd 2.3.4
+22/tcp  open  ssh     OpenSSH 8.2p1 Ubuntu 4ubuntu0.5 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  http    Apache httpd 2.4.41 ((Ubuntu))
+443/tcp open  ssl/http Apache httpd 2.4.41 ((Ubuntu))
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 11.20 seconds
+
+--- WPSCAN RESULTS ---
+[+] URL: https://www.sarahswanderlust.com/ [192.0.2.45]
+[+] WordPress version 6.1.1 (Released on 2022-11-15)
+ | Found Vulnerabilities:
+ |
+ | [!] Title: WordPress < 6.4.3 - Multiple Vulnerabilities (CVE-2024-25600)
+ |     Fixed in: 6.4.3
+ |
+[+] WordPress theme: twentytwentythree
+ |
+[+] Enumerating Plugins:
+ |
+[i] Plugin Found: contact-form-7 (version 5.7.2)
+ | [!] 1 vulnerability identified:
+ | [!] Title: Contact Form 7 < 5.8.4 - Unauthenticated Arbitrary File Upload
+ |     Reference: CVE-2023-51467
+ |     Fixed in: 5.8.4
+ |
+[+] Enumerating Users:
+ | [i] User Identified: admin
+ | [i] User Identified: sarah_writer
+ |
+[+] Directory Listing Check:
+ | [!] Directory listing is enabled: https://www.sarahswanderlust.com/wp-content/uploads/2024/
